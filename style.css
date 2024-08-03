@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: var(---fonte-001);
+}
+:root{
+    ---cor-header:#FFFFFF;
+    ---cor-vagas:#F3FCFF;
+    ---cor-footer:#263238;
+    ---cor-button:#634686;
+    ---cor-estilizar-css:#EB996E;
+    ---fonte-001:"Inter", sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    
+}
+.conteiner{
+width: 100%;
+padding-inline: 10%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   z-index: 2;
+   position: relative;
+    height: 3.6725em;
+   box-shadow: 0px 2.78px 5.57px 0px #ABBED166;
+    
+
+}
+.header__wapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo__previmos{
+    height: 2em;
+    width: 11em;
+}
+.button{
+    width: 20em;
+    height: 3em;
+    background-color: var(---cor-button);
+    color: var(---cor-header);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    border-radius: 0.5em;
+    font-size: 0.7em;
+    font-family:var(---fonte-001) ; 
+
+}
+.conteiner__principal{
+    
+    background-color: #F3FCFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    
+}
+.texto__principal{
+    display: flex;
+    flex-direction: column;
+    gap: 1.1em;
+}
+.brinde__conteiner{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    
+}
+.divulgacao__brinde{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    justify-content: center;
+    text-align: center;
+}
+.icons__brinde{
+    padding-top: 1rem;
+    display: flex;
+    gap: 1em;
+}
+.informacao__conteiner{
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.informacao__icons-texto{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-evenly;
+}
+.informacao-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+
+}
+.informacao-box__img{
+    
+    
+    text-align: center;
+}
+.informacao-box img{
+    width: 100%;
+    max-width: 4rem;
+  
+
+   
+}
+.exclusivo__conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.exclusivo__foto img{
+    width: 100%;
+    height: 100%;
+    max-width: 25rem;
+   
+}
+.exclusivo__agendamento{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 70%;
+}
+.vagas__conteiner{
+    background-color: var(---cor-vagas);
+    display: flex;
+    justify-content: space-between;
+    height:19em ;
+    width: 100%;
+}
+.texto__vagas{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+}
+.paragrafo__vagas{
+    color: #18191F;
+}
+.vagas__filhho__conteiner{
+    display: flex;
+    gap: 0.5rem;
+}
+.primaria{
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+}
+.cadastro__conteiner{
+    height:19em ;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.form__header{
+    padding-bottom: 1.3em;
+}
+.eu{
+    display: flex;
+    gap: 2rem;
+}
+.input_box{
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.login__button{
+    display: flex;
+    justify-content: flex-end;
+}
+.buton_eu{
+    width: 8em;
+    display: flex;
+    justify-content: space-around;
+}
+.filho__foto{
+    margin-top: 1em;
+    display: flex;
+    gap: 1.5em;
+}
+.informacao__conteiner{
+    text-align: center;
+    height:100%;
+    margin: 1em;
+}
+.informacao__texto{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+}
+.estilizar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #F3FCFF;
+    border: 1px solid #F3FCFF;
+    width: 80%;
+    height: 30%;
+    position: relative;
+    bottom: 25%;
+    left: 10%;
+    border-radius: 10px;
+    box-shadow: 0px 5.57px 11.14px 0px #ABBED166;
+
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    background-color: var(---cor-footer);
+}
+.footer__parteum{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    padding-top: 2em;
+    background-color: var(---cor-vagas);
+    padding: 4em;
+}
+.footer__partedois-eu{
+    
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-bottom: 2em;
+    width: 100%;
+    height: 100%;
+   padding-inline: 10%;
+   height: 2em;
+   background-color: var(---cor-footer);
+   
+   
+}
+
+.footer-final{
+padding-inline: 10%;
+text-align: center;
+display: flex;
+flex-direction: column;
+gap: 0.5em;
+height: 5em;
+}
+.texto__inicial{
+    font-family: var(---fonte-001);
+    font-weight: 600;
+    font-size: 3em;
+    color: #263238;
+}
+.texto__inicial strong{
+    color: #634686;
+}
+p{
+    color: #717171;
+    font-size: 0.69em;
+}
+h2{
+    font-weight: 600;
+    font-size: 1.57em;
+    color: #4D4D4D;
+}
+.h2__informacao{
+    color: #4D4D4D;
+    font-weight: 700;
+    font-size: 1.21em;
+}
+h3{
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #4D4D4D;
+}
+.roxo{
+    color: #634686;
+}
+.verde{
+    color: green;
+}
+.vermelho{
+    color: red;
+}
+.azul{
+    color: blue;
+}
+.abobora{
+    color: #EB996E;
+}
+.limitadas{
+    color: #634686;
+}
+.nomes{
+    color: #717171;
+    font-size: 0.69em;
+}
+.caixa__nome{
+    width: 17.81em;
+    height: 2.31em;
+    background-color: #C4C4C4;
+    border: 1px solid #000000;
+    border-radius: 2.67px;
+    
+}
+.caixa__insta{
+    width: 8.68em;
+    height: 2.31em;
+    background-color: #C4C4C4;
+    border: 1px solid #000000;
+    border-radius: 2.67px;
+
+}
+.caixa__email{
+    width: 17em;
+    height: 2.31em;
+    background-color: #C4C4C4;
+    border: 1px solid #000000;
+    border-radius: 2.67px;
+}
+.caixa__wats{
+    width: 10.06em;
+    height: 2.31em;
+    background-color: #C4C4C4;
+    border: 1px solid #000000;
+    border-radius: 2.67px;
+}
+.caixa__data{
+    width: 14.81em;
+    height: 2.31em;
+    background-color: #C4C4C4;
+    border: 1px solid #000000;
+    border-radius: 2.67px;
+
+}
+.caixa__hora{
+    width: 11.25em;
+    height: 2.31em;
+    background-color: #C4C4C4;
+    border: 1px solid #000000;
+    border-radius: 2.67px;
+
+}
+.h1__footer{
+    font-family: var(---fonte-001);
+    font-weight: 600;
+    font-size: 2.78em;
+    color: #263238;
+}
+.paragrafo__footer{
+    color: white;
+}
+.link__footer{
+    color: white;
+}
+.aplicativos__footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
